@@ -1,0 +1,122 @@
+<DOCTYPE! html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+	<title>Feedback</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="style.css">
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+	 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<style>
+	contact-parent {
+    background: #fff;
+    display:flex;
+    margin:80px 0;
+}
+	.contact-child{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+}
+	.child2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+	.inside-contact{
+    width:90%;
+    margin:0 auto;
+}
+	.inside-contact h2{
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:50px;
+}
+	.inside-contact h3{
+    text-align:center;
+    font-size:16px;
+    color:#0085e2;
+}
+	.inside-contact input, .inside-contact textarea{
+    width:100%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+}
+	.inside-contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:2px solid #000;
+    margin:30px 0;
+}
+	.inside-contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+	@media screen and (max-width:991px){
+    .contact-parent{
+        display:block;
+        width:100%;
+    }
+    .child2{
+      
+		background-size:cover;
+    }
+    .inside-contact input, .inside-contact textarea{
+        background-color:#fff;
+    }
+}
+</style>
+</style>
+<body>
+	<nav>
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbth">
+	<i class="fas fa-bars"></i>
+	</label>
+	<label <a class="logo">Nlion<a href="#" class="logo">
+	</label>
+	<ul>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/index.html">HOME</a></li>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/Catergories.html">Catesgories</a></li>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/Upcoming.html">Upcoming</a></li>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/About%20page.html">About</a></li>
+	<li><a class="active" href="#">Feedback</a></li>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/Movie%20page.html">Movies</a></li>
+	<li><a href="file:///C:/Users/cse21-062/Desktop/movie%20website/Contacts.html">Contacts</a></li>
+	</ul>
+	</nav>
+<section id="main">
+<div class="container">
+   <div class="contact-parent">
+      <div class="contact-child child2">
+         <div class="inside-contact">
+			<h2>Feedback</h2>
+            <h3>
+               <span id="confirm">
+            </h3>
+			Name: <input type="text" name="name" required placeholder="Enter your name">
+			Email Address: <input type="email" name="email" required placeholder="Enter a valid email address">
+			Phone: <input type="phone number" name="phone" required placeholder="Enter phone number">
+			Subject: <input type="text" name="Subject" required placeholder="">
+            <p>Message: </p>
+            <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+            <input type="submit" id="btn_send" value="SEND">
+         </div>
+      </div>
+   </div>
+</div>
+</section>
+	
+<footer>
+  <div class="row primary">
+ 
+  </div>
+</footer>
+<div class="ct-footer-copyright">
+<p>Copyright © 2022 Nlion | All Rights Reserved</p></div>
+</html>
